@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{1E6B6DF9-97A8-45B9-8CC1-BB61A7998D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ef", "Ef\Ef.csproj", "{3F74FA91-12CB-4D5C-B58E-5B2B91B20748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6B6DF9-97A8-45B9-8CC1-BB61A7998D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6B6DF9-97A8-45B9-8CC1-BB61A7998D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6B6DF9-97A8-45B9-8CC1-BB61A7998D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6B6DF9-97A8-45B9-8CC1-BB61A7998D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F74FA91-12CB-4D5C-B58E-5B2B91B20748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F74FA91-12CB-4D5C-B58E-5B2B91B20748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F74FA91-12CB-4D5C-B58E-5B2B91B20748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F74FA91-12CB-4D5C-B58E-5B2B91B20748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
