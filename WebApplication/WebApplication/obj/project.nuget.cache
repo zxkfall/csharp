@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jNkYoPl/7+SYx4qvHLNzwPLm8TKjxSyInJKQqa7aXeu6mnXJB+1SbjabvKWU9q77cjt4lUtjFMWLI5ATobnk3g==",
+  "dgSpecHash": "rXRQLDrzvavr1HQ0tZT0U2h3Uru9WvAd6Hy6Ey7GtQOyQjn5vLmNdSmguumitp6MH2n+jLeHW12qiZ7TE3l14g==",
   "success": true,
   "projectFilePath": "E:\\codespace\\csharp\\WebApplication\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\xingkun.zhang\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\xingkun.zhang\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }
