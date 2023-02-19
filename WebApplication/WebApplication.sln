@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfExample", "EfExample\EfEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusCmd", "ServiceBusCmd\ServiceBusCmd.csproj", "{55861B67-BF25-439F-96E7-31D861AB79D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStoreExample", "EventStoreExample\EventStoreExample.csproj", "{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{55861B67-BF25-439F-96E7-31D861AB79D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55861B67-BF25-439F-96E7-31D861AB79D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55861B67-BF25-439F-96E7-31D861AB79D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
