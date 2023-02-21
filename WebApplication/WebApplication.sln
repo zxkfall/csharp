@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusCmd", "ServiceBus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStoreExample", "EventStoreExample\EventStoreExample.csproj", "{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzExample", "QuartzExample\QuartzExample.csproj", "{F9BDA18A-E78C-43B2-96CD-B0031554813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExample", "TestExample\TestExample.csproj", "{A2ECDF9E-0944-448B-99F8-F9D98FA31399}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A460FB4-229F-40C6-9EAB-DB4F8A29AF75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BDA18A-E78C-43B2-96CD-B0031554813C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BDA18A-E78C-43B2-96CD-B0031554813C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BDA18A-E78C-43B2-96CD-B0031554813C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9BDA18A-E78C-43B2-96CD-B0031554813C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
