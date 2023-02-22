@@ -19,7 +19,7 @@ public class ControllerTestBase : IClassFixture<CustomWebApplicationFactory<Star
         var testScope = Factory.Services.GetService<IServiceScopeFactory>().CreateScope();
         ServiceProvider = testScope.ServiceProvider;
         AccountContext = ServiceProvider.GetRequiredService<AccountContext>();
-        AccountContext.Database.EnsureCreated();
+        AccountContext.Database.EnsureDeleted();
     }
 }
 
