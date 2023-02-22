@@ -36,4 +36,13 @@ public class AccountControllerTest : ControllerTestBase
         var responseString = await response.Content.ReadAsStringAsync();
         responseString.Should().Be("[{\"id\":1,\"userName\":\"test\"}]");
     }
+
+    [Fact]
+    public async Task ShouldUseFakeConfiguration()
+    {
+        var client = Factory.CreateClient();
+        var response = await client.GetAsync("accounts/configs");
+        response.EnsureSuccessStatusCode();
+        response.Content.ReadAsStringAsync().Result.Should().Be("Value1 NestedValue1");
+    }
 }
