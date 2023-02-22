@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Ef.Domain;
+namespace EfExample.Domain;
 
 public class AccountContext : DbContext
 {

@@ -1,7 +1,8 @@
 // using Ef.Domain;
 // using Microsoft.EntityFrameworkCore;
 
-using Ef.Domain;
+using EfExample.Domain;
+using EfExample.Service;
 using Microsoft.EntityFrameworkCore;
 
 // var builder = WebApplication.CreateBuilder(args);
@@ -55,6 +56,7 @@ public class Startup
         services.AddSwaggerGen();
         services.AddDbContext<AccountContext>(optionsBuilder =>
             optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=test;Integrated Security=SSPI;Encrypt=True;Trust Server Certificate=True;"));
+        services.AddScoped<IAccountService, AccountService>();
     }
     
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
