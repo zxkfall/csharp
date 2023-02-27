@@ -8,3 +8,9 @@ WebApplication/obj
 
 TestExample/bin
 TestExample/obj
+
+QuartzAndEventStore/bin
+QuartzAndEventStore/obj
+
+QuartzAndEventWorkerService/bin
+QuartzAndEventWorkerService/obj
