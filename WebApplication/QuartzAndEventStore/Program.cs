@@ -50,9 +50,10 @@ public class Program
         await scheduler.ScheduleJob(job2, trigger2);
         
         // some sleep to show what's happening
-        await Task.Delay(TimeSpan.FromSeconds(60));
-        await scheduler.PauseJob(new JobKey(job1, group1));
-        await scheduler.PauseJobs(GroupMatcher<JobKey>.GroupEquals(group1));
+        Console.ReadKey();
+        // await Task.Delay(TimeSpan.FromSeconds(60));
+        // await scheduler.PauseJob(new JobKey(job1, group1));
+        // await scheduler.PauseJobs(GroupMatcher<JobKey>.GroupEquals(group1));
     }
 }
 
@@ -62,7 +63,7 @@ public class SendEventJob : IJob
     {
         var eventData = new EventData(
             Uuid.NewUuid(),
-            typeof(UpdateAccountEvent).ToString(),
+            nameof(UpdateAccountEvent),
             JsonSerializer.SerializeToUtf8Bytes(new UpdateAccountEvent
             {
                 EntityId = Guid.NewGuid().ToString("N"),
@@ -100,7 +101,7 @@ public class ReceiveEventJob : IJob
         foreach (var @event in events)
         {
             var jsonSerializerOptions = new JsonSerializerOptions();
-            if (@event.Event.EventType == typeof(UpdateAccountEvent).ToString())
+            if (@event.Event.EventType == nameof(UpdateAccountEvent))
             {
                 var updateAccountEvent = JsonSerializer.Deserialize<UpdateAccountEvent>(@event.Event.Data.ToArray(), jsonSerializerOptions);
                 Console.WriteLine($"{updateAccountEvent.EntityId} {updateAccountEvent.UserName} {updateAccountEvent.Email} {updateAccountEvent.Password}");
