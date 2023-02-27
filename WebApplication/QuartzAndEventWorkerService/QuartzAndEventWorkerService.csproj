@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-WorkerService1-6EEA4E5B-28FC-400A-A8BE-2FE28D1CFF1A</UserSecretsId>
+        <RootNamespace>QuartzAndEventWorkerService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="EventStore.Client.Grpc.Streams" Version="22.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Quartz" Version="3.6.0" />
+    </ItemGroup>
+</Project>
