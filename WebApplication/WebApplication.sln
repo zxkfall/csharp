@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzExample", "QuartzExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExample", "TestExample\TestExample.csproj", "{A2ECDF9E-0944-448B-99F8-F9D98FA31399}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzAndEventStore", "QuartzAndEventStore\QuartzAndEventStore.csproj", "{410CA901-2773-49DA-93EC-6D3D308C9617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzAndEventWorkerService", "QuartzAndEventWorkerService\QuartzAndEventWorkerService.csproj", "{053544E6-7266-4376-8AC3-0940B692F454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2ECDF9E-0944-448B-99F8-F9D98FA31399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410CA901-2773-49DA-93EC-6D3D308C9617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410CA901-2773-49DA-93EC-6D3D308C9617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410CA901-2773-49DA-93EC-6D3D308C9617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410CA901-2773-49DA-93EC-6D3D308C9617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053544E6-7266-4376-8AC3-0940B692F454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053544E6-7266-4376-8AC3-0940B692F454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053544E6-7266-4376-8AC3-0940B692F454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053544E6-7266-4376-8AC3-0940B692F454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

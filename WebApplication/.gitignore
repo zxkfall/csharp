@@ -14,3 +14,12 @@ QuartzAndEventStore/obj
 
 QuartzAndEventWorkerService/bin
 QuartzAndEventWorkerService/obj
+
+EventStoreExample/bin
+EventStoreExample/obj
+
+QuartzExample/bin
+QuartzExample/obj
+
+ServiceBusCmd/bin
+ServiceBusCmd/obj
