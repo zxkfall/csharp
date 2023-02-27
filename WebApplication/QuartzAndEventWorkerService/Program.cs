@@ -1,4 +1,4 @@
-using QuartzAndEventWorkerService;
+using QuartzAndEventWorkerService.service;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>

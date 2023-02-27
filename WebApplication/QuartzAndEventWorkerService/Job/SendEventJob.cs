@@ -2,9 +2,11 @@
 using System.Text.Json;
 using EventStore.Client;
 using Quartz;
+using QuartzAndEventWorkerService.Domain;
 
-namespace QuartzAndEventWorkerService;
-
+namespace QuartzAndEventWorkerService.Job;
+// band run many jobs in same time
+[DisallowConcurrentExecution]
 public class SendEventJob : IJob
 {
     public async Task Execute(IJobExecutionContext context)

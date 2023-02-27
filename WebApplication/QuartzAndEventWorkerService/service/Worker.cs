@@ -1,4 +1,4 @@
-namespace WorkerService1;
+namespace QuartzAndEventWorkerService.service;
 
 public class Worker : BackgroundService
 {

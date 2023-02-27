@@ -1,9 +1,11 @@
 ﻿using System.Text.Json;
 using EventStore.Client;
 using Quartz;
+using QuartzAndEventWorkerService.Domain;
 
-namespace QuartzAndEventWorkerService;
+namespace QuartzAndEventWorkerService.Job;
 
+[DisallowConcurrentExecution]
 public class ReceiveEventJob : IJob
 {
     public async Task Execute(IJobExecutionContext context)
