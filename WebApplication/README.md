@@ -9,6 +9,7 @@ https://github.com/moq/moq4
 1. things need to do
 - [x] quartz + event store
 - [x] quartz + event store + worker service + DI
+- [ ] quartz + service bus + worker service + DI
 - [ ] asp.net + quartz + event store + ef + unit/integration test + ef migration
 - [ ] asp.net + quartz + event store + nhibernate + unit/integration test + FluentMigrator
 - [ ] fluent Nhibernate
