@@ -5,10 +5,18 @@ using Quartz;
 using QuartzAndEventWorkerService.Domain;
 
 namespace QuartzAndEventWorkerService.Job;
+
 // band run many jobs in same time
 [DisallowConcurrentExecution]
+[PersistJobDataAfterExecution]
 public class SendEventJob : IJob
 {
+    private readonly EventStoreClient _eventStoreClient;
+    public SendEventJob(EventStoreClient eventStoreClient)
+    {
+        _eventStoreClient = eventStoreClient;
+    }
+
     public async Task Execute(IJobExecutionContext context)
     {
         var eventData = new EventData(
@@ -22,9 +30,8 @@ public class SendEventJob : IJob
                 Password = DateTime.Now.ToString(CultureInfo.InvariantCulture)
             })
         );
-        var client = ClientHelper.GetInstance().GetClient();
         var cancellationToken = new CancellationToken();
-        var sendRes = await client.AppendToStreamAsync(
+        var sendRes = await _eventStoreClient.AppendToStreamAsync(
             "some-stream",
             StreamState.Any,
             new[] { eventData },

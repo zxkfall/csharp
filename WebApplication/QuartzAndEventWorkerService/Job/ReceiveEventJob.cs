@@ -6,13 +6,20 @@ using QuartzAndEventWorkerService.Domain;
 namespace QuartzAndEventWorkerService.Job;
 
 [DisallowConcurrentExecution]
+[PersistJobDataAfterExecution]
 public class ReceiveEventJob : IJob
 {
+    private readonly EventStoreClient _eventStoreClient;
+
+    public ReceiveEventJob(EventStoreClient eventStoreClient)
+    {
+        _eventStoreClient = eventStoreClient;
+    }
+
     public async Task Execute(IJobExecutionContext context)
     {
         var cancellationTokenSource = new CancellationTokenSource();
-        var client = ClientHelper.GetInstance().GetClient();
-        var result = client.ReadStreamAsync(
+        var result = _eventStoreClient.ReadStreamAsync(
             Direction.Forwards,
             "some-stream",
             StreamPosition.Start,
