@@ -23,3 +23,6 @@ QuartzExample/obj
 
 ServiceBusCmd/bin
 ServiceBusCmd/obj
+
+QuartzAndServiceBusWorkerService/bin
+QuartzAndServiceBusWorkerService/obj

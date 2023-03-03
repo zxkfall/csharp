@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>dotnet-QuartzAndServiceBusWorkerService-8C8934BA-D3FD-4005-BEF9-BBDEA602CA88</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.12.0" />
+        <PackageReference Include="Microsoft.Extensions.Azure" Version="1.6.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Quartz" Version="3.6.0" />
+        <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.6.0" />
+        <PackageReference Include="Quartz.Extensions.Hosting" Version="3.6.0" />
+        <PackageReference Include="Quartz.Plugins.TimeZoneConverter" Version="3.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Job" />
+    </ItemGroup>
+</Project>
