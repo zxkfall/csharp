@@ -2,30 +2,40 @@
 
 EfExample/bin
 EfExample/obj
+EfExample/appsettings.Development.json
 
 WebApplication/bin
 WebApplication/obj
+WebApplication/appsettings.Development.json
 
 TestExample/bin
 TestExample/obj
+TestExample/appsettings.Development.json
 
 QuartzAndEventStore/bin
 QuartzAndEventStore/obj
+QuartzAndEventStore/appsettings.Development.json
 
 QuartzAndEventWorkerService/bin
 QuartzAndEventWorkerService/obj
+QuartzAndEventWorkerService/appsettings.Development.json
 
 EventStoreExample/bin
 EventStoreExample/obj
+EventStoreExample/appsettings.Development.json
 
 QuartzExample/bin
 QuartzExample/obj
+QuartzExample/appsettings.Development.json
 
 ServiceBusCmd/bin
 ServiceBusCmd/obj
+ServiceBusCmd/appsettings.Development.json
 
 QuartzAndServiceBusWorkerService/bin
 QuartzAndServiceBusWorkerService/obj
+QuartzAndServiceBusWorkerService/appsettings.Development.json
 
 ServiceBusAndWorkerService/bin
 ServiceBusAndWorkerService/obj
+ServiceBusAndWorkerService/appsettings.Development.json
