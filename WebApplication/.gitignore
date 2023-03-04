@@ -26,3 +26,6 @@ ServiceBusCmd/obj
 
 QuartzAndServiceBusWorkerService/bin
 QuartzAndServiceBusWorkerService/obj
+
+ServiceBusAndWorkerService/bin
+ServiceBusAndWorkerService/obj

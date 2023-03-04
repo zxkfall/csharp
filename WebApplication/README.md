@@ -10,12 +10,15 @@ https://github.com/moq/moq4
 - [x] quartz + event store
 - [x] quartz + event store + worker service + DI
 - [x] quartz + service bus + worker service + DI
-- [ ] background service + service bus + worker service + DI
+- [x] background service + service bus + worker service + DI
+- [ ] background service + service bus receive + quartz send + worker service + DI
 - [ ] asp.net + quartz + event store + ef + unit/integration test + ef migration
 - [ ] asp.net + quartz + event store + nhibernate + unit/integration test + FluentMigrator
 - [ ] fluent Nhibernate
 - [ ] integrate Auth0 and OpenAM
 auto mapper
+Json serializer
+fluent assertions
 .gitignore not work when update .gitignore file
 use
 ```bash
@@ -46,3 +49,6 @@ https://learn.microsoft.com/en-us/dotnet/azure/sdk/dependency-injection
 
 ## background service
 https://learn.microsoft.com/zh-cn/dotnet/core/extensions/windows-service
+
+## Test
+[FluentAssertions](https://fluentassertions.com/introduction)

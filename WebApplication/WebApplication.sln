@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzAndEventWorkerService
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzAndServiceBusWorkerService", "QuartzAndServiceBusWorkerService\QuartzAndServiceBusWorkerService.csproj", "{469ED81B-FAF0-4DEB-A34E-3332F25607E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusAndWorkerService", "ServiceBusAndWorkerService\ServiceBusAndWorkerService.csproj", "{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{469ED81B-FAF0-4DEB-A34E-3332F25607E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{469ED81B-FAF0-4DEB-A34E-3332F25607E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{469ED81B-FAF0-4DEB-A34E-3332F25607E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
