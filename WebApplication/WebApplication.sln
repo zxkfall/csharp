@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzAndServiceBusWorkerSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusAndWorkerService", "ServiceBusAndWorkerService\ServiceBusAndWorkerService.csproj", "{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUseQuartzEventEf", "WebUseQuartzEventEf\WebUseQuartzEventEf.csproj", "{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEAD2B2D-974E-4830-BE1C-1E85DCEE0209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -39,3 +39,7 @@ QuartzAndServiceBusWorkerService/appsettings.Development.json
 ServiceBusAndWorkerService/bin
 ServiceBusAndWorkerService/obj
 ServiceBusAndWorkerService/appsettings.Development.json
+
+WebUseQuartzEventEf/bin
+WebUseQuartzEventEf/obj
+WebUseQuartzEventEf/appsettings.Development.json
