@@ -74,12 +74,14 @@ https://blog.gitguardian.com/rewriting-git-history-cheatsheet/
 ```bash
 dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore.Design
-# 创建迁移
+# 创建迁移 比如添加的新的字段，最好加个migration
 dotnet ef migrations add InitialCreate
 #更新数据库
 dotnet ef database update
 #更新数据库到对应的版本，如果是旧的版本则会执行drop方法
 dotnet ef database update 20210902100000_InitialCreate # (也就是对应的版本)
+# 移除最近生成的migration脚本,如果已经执行过的脚本则不会移除
+dotnet ef migrations remove
 ```
 
 ## Middleware
