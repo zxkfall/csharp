@@ -14,6 +14,8 @@ https://github.com/moq/moq4
 - [ ] background service + service bus receive + quartz send + worker service + DI
 - [ ] asp.net + quartz + event store + ef + unit/integration test + ef migration
 - [ ] asp.net + quartz + event store + nhibernate + unit/integration test + FluentMigrator
+- [ ] asp.net + quartz + event store + background service + service bus + unit/integration test + nhibernate + FluentMigrator
+- [ ] asp.net + quartz + event store + background service + service bus + unit/integration test + ef + ef migration
 - [ ] fluent Nhibernate
 - [ ] integrate Auth0 and OpenAM
 auto mapper

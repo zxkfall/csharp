@@ -39,9 +39,9 @@ public class AccountController : ControllerBase
     }
 
     [HttpPost("fromDto")]
-    public async Task<Account> Post(AccountDto accountDto)
+    public async Task<Account> Post(SimpleAccountDto simpleAccountDto)
     {
-        return await SaveAccount(accountDto.UserName);
+        return await SaveAccount(simpleAccountDto.UserName);
     }
 
     private async Task<Account> SaveAccount(string userName)
@@ -52,7 +52,7 @@ public class AccountController : ControllerBase
     }
 }
 
-public class AccountDto
+public class SimpleAccountDto
 {
     public string UserName { get; set; }
 }
