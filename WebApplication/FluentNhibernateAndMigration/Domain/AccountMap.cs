@@ -1,6 +1,6 @@
 using FluentNHibernate.Mapping;
 
-namespace FluentNhibernateAndMigration;
+namespace FluentNhibernateAndMigration.Domain;
 
 public class AccountMap : ClassMap<Account>
 {

@@ -1,3 +1,5 @@
+using FluentNhibernateAndMigration.Domain;
+using FluentNhibernateAndMigration.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FluentNhibernateAndMigration.Controllers;
@@ -28,10 +30,15 @@ public class AccountController : ControllerBase
         await _accountRepository.Save(account);
         return account;
     }
+
+    [HttpPut]
+    [Route("{Id:int}")]
+    public async Task<Account> Put(int Id, AccountDto accountDto)
+    {
+        var account = new Account { Id = Id, Email = accountDto.Email, UserName = accountDto.UserName };
+        await _accountRepository.Update(account);
+        return account;
+    }
 }
 
-public class AccountDto
-{
-    public string UserName { get; set; }
-    public string Email { get; set; }
-}
+public record AccountDto(string UserName, string Email);

@@ -1,4 +1,4 @@
-namespace FluentNhibernateAndMigration;
+namespace FluentNhibernateAndMigration.Domain;
 
 public class Account
 {

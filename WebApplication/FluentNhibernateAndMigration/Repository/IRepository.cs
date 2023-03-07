@@ -1,4 +1,4 @@
-namespace FluentNhibernateAndMigration;
+namespace FluentNhibernateAndMigration.Repository;
 
 public interface IRepository<T> where T : class
 {

@@ -1,6 +1,6 @@
 using ISession = NHibernate.ISession;
 
-namespace FluentNhibernateAndMigration;
+namespace FluentNhibernateAndMigration.Repository;
 
 public class Repository<T> : IRepository<T> where T : class
 {
