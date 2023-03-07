@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusAndWorkerService"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUseQuartzEventEf", "WebUseQuartzEventEf\WebUseQuartzEventEf.csproj", "{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentNhibernateAndMigration", "FluentNhibernateAndMigration\FluentNhibernateAndMigration.csproj", "{D05B1FD6-5A31-44AE-B277-1D6E7A3A2F3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC3BF960-F2A1-4BA2-85FF-4D639A3FAF52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05B1FD6-5A31-44AE-B277-1D6E7A3A2F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05B1FD6-5A31-44AE-B277-1D6E7A3A2F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05B1FD6-5A31-44AE-B277-1D6E7A3A2F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05B1FD6-5A31-44AE-B277-1D6E7A3A2F3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

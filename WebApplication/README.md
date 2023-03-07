@@ -92,3 +92,7 @@ dotnet ef migrations remove
 ## asp.net middleware
 (处理http请求)
 [Middleware](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
+
+## Fluent Nhibernate & FluentMigrator
+https://github.com/nhibernate/fluent-nhibernate/wiki/Getting-started
+https://fluentmigrator.github.io/articles/quickstart.html?tabs=runner-in-process
