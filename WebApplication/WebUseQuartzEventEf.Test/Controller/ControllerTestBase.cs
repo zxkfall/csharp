@@ -4,6 +4,7 @@ using Moq;
 using Quartz;
 using WebUseQuartzEventEf.Controllers;
 using WebUseQuartzEventEf.Domain;
+using WebUseQuartzEventEf.Service;
 
 namespace WebUseQuartzEventEf.Test;
 

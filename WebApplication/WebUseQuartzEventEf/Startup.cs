@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebUseQuartzEventEf.Controllers;
 using WebUseQuartzEventEf.Domain;
+using WebUseQuartzEventEf.Service;
 
 namespace WebUseQuartzEventEf;
 

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using WebUseQuartzEventEf.Domain;
+using WebUseQuartzEventEf.Service;
 
 namespace WebUseQuartzEventEf.Controllers;
 
@@ -24,48 +25,20 @@ public class AccountController : ControllerBase
     }
 
     [HttpPost("fromBody")]
-    public async Task<Account> Post([FromBody]string userName)
+    public async Task<Account> Post([FromBody]string userName, string email)
     {
-        return await _accountService.SaveAccount(userName);
+        return await _accountService.SaveAccount(userName, email);
     }
 
     [HttpPost("fromDto")]
     public async Task<Account> Post(SimpleAccountDto simpleAccountDto)
     {
-        return await _accountService.SaveAccount(simpleAccountDto.UserName);
-    }
-}
-
-public interface IAccountService
-{
-    Task<Account> SaveAccount(string userName);
-    
-    Task<List<Account>> GetAccounts();
-}
-
-public class AccountService : IAccountService
-{
-    private readonly AccountContext _accountContext;
-
-    public AccountService(AccountContext accountContext)
-    {
-        _accountContext = accountContext;
-    }
-
-    public async Task<Account> SaveAccount(string userName)
-    {
-        var result = await _accountContext.AddAsync(new Account { UserName = userName });
-        await _accountContext.SaveChangesAsync();
-        return result.Entity;
-    }
-
-    public Task<List<Account>> GetAccounts()
-    {
-        return Task.FromResult(_accountContext.Accounts.ToList());
+        return await _accountService.SaveAccount(simpleAccountDto.UserName, simpleAccountDto.Email);
     }
 }
 
 public class SimpleAccountDto
 {
     public string UserName { get; set; }
+    public string Email { get; set; }
 }
