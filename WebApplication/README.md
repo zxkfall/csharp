@@ -96,3 +96,6 @@ dotnet ef migrations remove
 ## Fluent Nhibernate & FluentMigrator
 https://github.com/nhibernate/fluent-nhibernate/wiki/Getting-started
 https://fluentmigrator.github.io/articles/quickstart.html?tabs=runner-in-process
+
+## Test
+https://learn.microsoft.com/zh-cn/aspnet/core/test/integration-tests?view=aspnetcore-6.0

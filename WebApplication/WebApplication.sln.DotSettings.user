@@ -3,8 +3,6 @@
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c507563f_002D304b_002D4c3b_002Da0ea_002D9ced8f82accd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UnitTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2ECDF9E-0944-448B-99F8-F9D98FA31399::net6.0::TestExample.UnitTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2ECDF9E-0944-448B-99F8-F9D98FA31399::net6.0::TestExample.Controller.AccountControllerTest.ShouldReturnAllAccounts&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::A2ECDF9E-0944-448B-99F8-F9D98FA31399::net6.0::TestExample.Controller.AccountControllerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::3BDEF9DE-FF90-4043-A183-F486BABD5BA5::net6.0::WebUseQuartzEventEf.Test.AccountControllerFacts.Test1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

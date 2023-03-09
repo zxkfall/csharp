@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WebUseQuartzEventEf.Controllers;
 using WebUseQuartzEventEf.Domain;
 
 namespace WebUseQuartzEventEf;
@@ -26,12 +27,11 @@ public class Startup
         });
         services.AddMiddlewares(_configuration);
         services.AddQuartz(_configuration);
+        services.AddScoped<IAccountService, AccountService>();
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-
-        
         app.UseRouting();
         app.UseAuthorization();
         app.UseAuthentication();

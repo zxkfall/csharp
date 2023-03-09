@@ -47,3 +47,6 @@ WebUseQuartzEventEf/appsettings.Development.json
 FluentNhibernateAndMigration/bin
 FluentNhibernateAndMigration/obj
 FluentNhibernateAndMigration/appsettings.Development.json
+
+WebUseQuartzEventEf.Test/bin
+WebUseQuartzEventEf.Test/obj
